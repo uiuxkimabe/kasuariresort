@@ -1,0 +1,85 @@
+/* tablet view */
+@media screen and (max-width: 850px) {
+  /* nav */
+
+  nav .navigasi {
+    width: 60%;
+  }
+
+  /* destination */
+
+  #destination h1 {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+}
+
+/* smartphone view */
+@media screen and (max-width: 450px) {
+  /* nav */
+
+  nav .row {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .logo {
+    order: 2;
+  }
+
+  .navigasi {
+    width: 80% !important;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1em;
+    padding: 0 2em;
+    background-color: var(--basic);
+    transform: translateX(-100%);
+  }
+
+  .navigasi.show {
+    transform: translateX(0);
+  }
+
+  .navigasi a:not(:last-child) {
+    color: var(--dark) !important;
+  }
+
+  .hamBtn {
+    display: flex;
+    order: 1;
+  }
+
+  .hamBtn span {
+    position: relative;
+  }
+
+  /* end nav */
+
+  /* destination */
+
+  #destination h1 {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+
+  .destinations-review {
+    margin-top: 1em;
+  }
+
+  .promo-review .col {
+    flex: 0 0 80%;
+    height: 300px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 1em;
+    border-radius: 10px;
+  }
+}
