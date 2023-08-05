@@ -494,7 +494,7 @@ nav a:hover {
 /* rooms */
 
 #rooms {
-  padding: 5em 0;
+  padding: 3em 0;
 }
 
 #rooms .photo-preview .preview {
@@ -528,6 +528,11 @@ nav a:hover {
   gap: 1em;
 }
 
+#rooms form input {
+  padding: 1em 10px;
+  margin: 10px 0;
+}
+
 #rooms figcaption .check {
   width: 100%;
   margin: 1em 0;
@@ -551,7 +556,7 @@ nav a:hover {
 /* similar */
 
 #similar {
-  padding: 5em 0;
+  padding: 3em 0;
 }
 
 #similar .row {
