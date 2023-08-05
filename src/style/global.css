@@ -476,6 +476,32 @@ nav a:hover {
 
 /* end destinations */
 
+/* section header rooms */
+
+#header-rooms {
+  background: url(../assets/rooms/deluxe/kasuari-deluxe-1.jpg) center, no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  color: var(--basic);
+  padding: 4em 0;
+}
+
+/* end section header rooms */
+
+/* rooms */
+
+#rooms {
+  padding: 2em 0;
+}
+
+#rooms .row:last-child {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+
+/* end rooms */
+
 /* footer */
 
 footer {
