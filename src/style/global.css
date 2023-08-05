@@ -543,6 +543,7 @@ nav a:hover {
   gap: 10px;
   color: var(--grey);
   margin: 8px 0;
+  font-size: 0.8rem;
 }
 
 /* end rooms */
