@@ -213,7 +213,8 @@ nav a:hover {
 .card .card-header::-webkit-scrollbar,
 .facilities::-webkit-scrollbar,
 .destinations-review::-webkit-scrollbar,
-.promo-review::-webkit-scrollbar {
+.promo-review::-webkit-scrollbar,
+.photo-preview ul::-webkit-scrollbar {
   display: none;
 }
 
@@ -479,7 +480,8 @@ nav a:hover {
 /* section header rooms */
 
 #header-rooms {
-  background: url(../assets/rooms/deluxe/kasuari-deluxe-1.jpg) center, no-repeat;
+  background: url(../assets/rooms/deluxe/kasuari-deluxe-1.jpg) bottom center,
+    no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 300px;
@@ -492,15 +494,76 @@ nav a:hover {
 /* rooms */
 
 #rooms {
-  padding: 2em 0;
+  padding: 5em 0;
 }
 
-#rooms .row:last-child {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+#rooms .photo-preview {
+  height: 300px;
+  border: 1px solid black;
+}
+
+#rooms .photo-preview .preview {
+  height: 100%;
+}
+
+#rooms .photo-preview ul {
+  width: 100%;
+  margin-top: 1em;
+  gap: 10px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+#rooms .photo-preview ul li {
+  flex: 0 0 80px;
+  height: 80px;
+  background-color: var(--secondary);
+}
+
+#rooms figure {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2em;
+  align-items: start;
+}
+
+#rooms form {
+  margin-top: 1.5em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 1em;
 }
 
+#rooms figcaption .check {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.specification .row {
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.specification ul li {
+  justify-content: flex-start;
+  gap: 10px;
+  color: var(--grey);
+  margin: 8px 0;
+}
+
 /* end rooms */
+
+/* similar */
+
+#similar {
+  padding: 5em 0;
+}
+
+#similar .row {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  margin-top: 1em;
+}
+
+/* end similar */
 
 /* footer */
 

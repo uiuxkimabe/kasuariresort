@@ -32,7 +32,7 @@
       <div class="container">
         <div class="row d-flex">
           <div class="col logo dl">
-            <a href="#">Kasuari Resort</a>
+            <a href="index.html">Kasuari Resort</a>
           </div>
           <div class="col navigasi dl d-flex">
             <a href="#">Rooms</a>
@@ -63,67 +63,125 @@
 
     <section id="rooms">
       <div class="container">
-        <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
-        </div>
-        <div class="row d-grid ll">
-         <a href="#" target="_blank" class="col card" title="Deluxe Rooms">
-           <div class="card-header">
-             <img src="./src/assets/rooms/deluxe/kasuari-deluxe-1.jpg" alt="Deluxe Rooms">
-             <img src="./src/assets/rooms/deluxe/kasuari-deluxe-2.jpg" alt="Deluxe Rooms">
-             <img src="./src/assets/rooms/deluxe/kasuari-deluxe-3.jpg" alt="Deluxe Rooms">
-             <img src="./src/assets/rooms/deluxe/kasuari-deluxe-4.jpg" alt="Deluxe Rooms">
-           </div>
-           <div class="tittle d-flex">
-             <figcaption>
-               <p>Member Disc. Upto 15%</p>
-               <h3>Deluxe</h2>
-               <h4>IDR. 450K / Weekdays</h4>
-             </figcaption>
-             <span class="rate">
-               <h3>4.9</h3>
-             </span>
-           </div>
-         </a>
-         <a href="#" target="_blank" class="col card" title="Family Delux Rooms">
-           <div class="card-header">
-             <img src="./src/assets/rooms/family-rooms/family-rooms-1.jpg" alt="Family Rooms">
-             <img src="./src/assets/rooms/family-rooms/family-rooms-2.jpg" alt="Family Rooms">
-             <img src="./src/assets/rooms/family-rooms/family-rooms-3.jpg" alt="Family Rooms">
-           </div>
-           <div class="tittle d-flex">
-             <figcaption>
-               <p>Member Disc. Upto 15%</p>
-               <h3>Family Deluxe</h3>
-               <h4>IDR. 450K / Weekdays</h4>
-             </figcaption>
-             <span class="rate">
-               <h3>4.9</h3>
-             </spanc>
-           </div>
-         </a>
-         <a href="#" target="_blank" class="col card" title="Family Delux Rooms">
-           <div class="card-header">
-             <img src="./src/assets/rooms/grand-deluxe/grand-deluxe-1.jpg" alt="Grand Deluxe">
-             <img src="./src/assets/rooms/grand-deluxe/grand-deluxe-2.jpg" alt="Grand Deluxe">
-           </div>
-           <div class="tittle d-flex">
-             <figcaption>
-               <p>Member Disc. Upto 15%</p>
-               <h3>Grand Deluxe</h3>
-               <h4>IDR. 450K / Weekdays</h4>
-             </figcaption>
-             <span class="rate">
-               <h3>4.9</h3>
-             </spanc>
-           </div>
-         </a>
-       </div>
+        <figure class="d-grid">
+          <div class="col photo-preview">
+            <div class="preview"></div>
+            <ul class="d-flex">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <figcaption>
+            <h1>Deluxe Rooms</h1>
+            <p><span class="price">450</span>K / Weekdays</p>
+            <form class="d-grid">
+              <div class="col date-ci">
+                <label>Check In</label><br />
+                <input type="date" id="ci" />
+              </div>
+              <div class="col date-co">
+                <label>Check Out</label><br />
+                <input type="date" id="co" />
+              </div>
+              <div class="col">
+                <label>Guests</label><br />
+                <input type="number" id="pax" />
+              </div>
+            </form>
+            <button type="button" class="cta-primary check">
+              Check Available
+            </button>
+            <figcaption class="specification">
+              <h3>Facilities</h3>
+              <div class="row d-flex">
+                <ul>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined"> shower </span>
+                    <p>Bathroom with Shower</p>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined"> balcony </span>
+                    <p>Ballcony</p>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined"> landscape </span>
+                    <p>Mountain View</p>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined"> wifi </span>
+                    <p>Wifi</p>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined"> tv </span>
+                    <p>Television</p>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined">
+                      emoji_food_beverage
+                    </span>
+                    <p>Tea & Coffee</p>
+                  </li>
+                </ul>
+              </div>
+            </figcaption>
+          </figcaption>
+        </figure>
       </div>
     </section>
 
     <!-- end section rooms -->
+
+    <!-- similar -->
+    <section id="similar">
+      <div class="container">
+        <h1>Similar Rooms</h1>
+        <div class="row d-grid ll">
+          <a href="#" target="_blank" class="col card" title="Family Delux Rooms">
+            <div class="card-header">
+              <img src="./src/assets/rooms/family-rooms/family-rooms-1.jpg" alt="Family Rooms">
+              <img src="./src/assets/rooms/family-rooms/family-rooms-2.jpg" alt="Family Rooms">
+              <img src="./src/assets/rooms/family-rooms/family-rooms-3.jpg" alt="Family Rooms">
+            </div>
+            <div class="tittle d-flex">
+              <figcaption>
+                <p>Member Disc. Upto 15%</p>
+                <h3>Family Deluxe</h3>
+                <h4>IDR. 450K / Weekdays</h4>
+              </figcaption>
+              <span class="rate">
+                <h3>4.9</h3>
+              </spanc>
+            </div>
+          </a>
+          <a href="#" target="_blank" class="col card" title="Family Delux Rooms">
+            <div class="card-header">
+              <img src="./src/assets/rooms/grand-deluxe/grand-deluxe-1.jpg" alt="Grand Deluxe">
+              <img src="./src/assets/rooms/grand-deluxe/grand-deluxe-2.jpg" alt="Grand Deluxe">
+            </div>
+            <div class="tittle d-flex">
+              <figcaption>
+                <p>Member Disc. Upto 15%</p>
+                <h3>Grand Deluxe</h3>
+                <h4>IDR. 450K / Weekdays</h4>
+              </figcaption>
+              <span class="rate">
+                <h3>4.9</h3>
+              </spanc>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- end similar -->
 
     <!-- footer -->
     <footer>
@@ -165,7 +223,6 @@
     </footer>
 
     <!-- end footer -->
-
 
     <script src="./src/js/index.js"></script>
   </body>
