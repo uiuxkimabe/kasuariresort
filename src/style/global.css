@@ -497,13 +497,9 @@ nav a:hover {
   padding: 5em 0;
 }
 
-#rooms .photo-preview {
-  height: 300px;
-  border: 1px solid black;
-}
-
 #rooms .photo-preview .preview {
-  height: 100%;
+  height: 300px;
+  background-color: var(--primary);
 }
 
 #rooms .photo-preview ul {
@@ -521,14 +517,14 @@ nav a:hover {
 }
 
 #rooms figure {
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2em;
   align-items: start;
 }
 
 #rooms form {
   margin-top: 1.5em;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1em;
 }
 
