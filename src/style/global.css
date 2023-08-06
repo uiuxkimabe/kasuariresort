@@ -538,6 +538,20 @@ nav a:hover {
   margin: 1em 0;
 }
 
+.specification {
+  margin-top: 1.5rem;
+}
+
+.specification figcaption {
+  margin: 1em 0;
+  text-align: justify;
+}
+
+.specification figcaption p {
+  color: var(--grey);
+  margin: 10px 0;
+}
+
 .specification .row {
   justify-content: flex-start;
   gap: 1em;
@@ -547,8 +561,11 @@ nav a:hover {
   justify-content: flex-start;
   gap: 10px;
   color: var(--grey);
-  margin: 8px 0;
-  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+.booked {
+  margin: 1em 0;
 }
 
 /* end rooms */

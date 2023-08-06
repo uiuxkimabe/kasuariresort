@@ -82,4 +82,15 @@
     padding: 1em;
     border-radius: 10px;
   }
+
+  /* rooms */
+
+  .specification figcaption p {
+    color: var(--grey);
+    font-size: 0.8rem;
+  }
+
+  .specification ul li {
+    font-size: 0.8rem;
+  }
 }
