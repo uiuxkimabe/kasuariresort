@@ -108,7 +108,7 @@ nav a:hover {
 }
 
 .navigasi {
-  width: 40%;
+  width: 50%;
   transition: 0.3s ease-in-out;
 }
 
@@ -495,6 +495,10 @@ nav a:hover {
 
 #rooms {
   padding: 3em 0;
+}
+
+#rooms figure.d-grid {
+  margin: 2em 0;
 }
 
 #rooms .photo-preview .preview {
